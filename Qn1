@@ -1,0 +1,17 @@
+void main(){
+  
+  List a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  
+  List lessThan5=[];  //Create an empty list for storing elements less than 5
+  
+  for(int i = 0; i < a.length; i++){
+    
+    //If the current element is less than 5, add it to the lessThan5 list
+    if(a[i]<5){     
+      lessThan5.add(a[i]);
+    }
+    
+  }
+  print(lessThan5);
+  
+}
